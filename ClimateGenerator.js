@@ -3,7 +3,7 @@ var result = document.getElementById("answer");
 var time = document.getElementById("footer");
 
 var answers = ["burn ", "use ", "switch ", "drive ", "use ", "use ", "eat ", "recycle ", "send ", "run your dishwasher ", "eat ", "drink ", "drink "];
-var reductions = [12.8, 0.5 , 0.31, 28.4, 13.74, 0.816, 1.245, 58.35, 2982.30, 15.49, 149, 51, 35];
+var reductions = [8.96, 0.35 , 0.217, 19.88, 9.62, 0.571, 0.8715, 40.845, 2087.61, 10.843, 104.3, 35.7, 24.5];
 var classifier = [" less pounds of coal " ," less tanks of propane ", " incandescant bulbs to compact fluorescants ", " fewer miles ", " kwh less electricity ", " less gallons of oil ", " less pounds of beef ", " pounds of recyclables ", " less emails ", " less times ", " fewer bananas ", " fewer large cappuccinos ", " fewer large lattes "];
 var factor = [1, 7, 30, 365];
 var factor_time = ["today", "this week", "this month", "this year"];
