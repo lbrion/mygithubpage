@@ -79,51 +79,51 @@ body {
 }
 
 @keyframes hover-out {
-    0% {left: -3px; top: -3px; opacity: 1; }
-    50% {left: -6px; top: -6px; opacity: 1; }
-    100% {left: 0px; top: 0px; opacity: 0.7; }
+    0% {left: -3px; top: -3px; opacity: 1; transform:translateY(5%);}
+    50% {left: -6px; top: -6px; opacity: 1; transform:translateY(3%);}
+    100% {left: 0px; top: 0px; opacity: 0.7; transform:translateY(0%);}
 }
 
 @-webkit-keyframes hover-out {
-    0% {left: -3px; top: -3px; opacity: 1; }
-    50% {left: -6px; top: -6px; opacity: 1; }
-    100% {left: 0px; top: 0px; opacity: 0.7; }
+    0% {left: -3px; top: -3px; opacity: 1; transform:translateY(5%);}
+    50% {left: -6px; top: -6px; opacity: 1; transform:translateY(3%);}
+    100% {left: 0px; top: 0px; opacity: 0.7; transform:translateY(0%);}
 }
 
 @-moz-keyframes hover-out {
-    0% {left: -3px; top: -3px; opacity: 1; }
-    50% {left: -6px; top: -6px; opacity: 1; }
-    100% {left: 0px; top: 0px; opacity: 0.7; }
+    0% {left: -3px; top: -3px; opacity: 1; transform:translateY(5%);}
+    50% {left: -6px; top: -6px; opacity: 1; transform:translateY(3%);}
+    100% {left: 0px; top: 0px; opacity: 0.7; transform:translateY(0%);}
 }
 
 @-o-keyframes hover-out {
-    0% {left: -3px; top: -3px; opacity: 1; }
-    50% {left: -6px; top: -6px; opacity: 1; }
-    100% {left: 0px; top: 0px; opacity: 0.7; }
+    0% {left: -3px; top: -3px; opacity: 1; transform:translateY(5%);}
+    50% {left: -6px; top: -6px; opacity: 1; transform:translateY(3%);}
+    100% {left: 0px; top: 0px; opacity: 0.7; transform:translateY(0%);}
 }
 
 .bounce-r {
     animation-name: hover-out;
-    animation-duration: 0.2;
+    animation-duration: 0.4;
     animation-timing-function: linear;
     animation-fill-mode: forwards;
     -webkit-animation-name: hover-out;
-    -webkit-animation-duration: 0.2s;
+    -webkit-animation-duration: 0.4s;
     -webkit-animation-timing-function: linear;
     -webkit-animation-fill-mode: forwards;
     -moz-animation-name: hover-out;
-    -moz-animation-duration: 0.2s;
+    -moz-animation-duration: 0.4s;
     -moz-animation-timing-function: linear;
     -moz-animation-fill-mode: forwards;
     -o-animation-name: hover-out;
-    -o-animation-duration: 0.2s;
+    -o-animation-duration: 0.4s;
     -o-animation-timing-function: linear;
     -o-animation-fill-mode: forwards;
 }
 
 .bounce-r:hover {
     animation-name: hover-over;
-    animation-duration: 0.2;
+    animation-duration: 0.7;
     animation-timing-function: linear;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
