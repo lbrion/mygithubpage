@@ -3,17 +3,17 @@ html(lang='en', xmlns='http://www.w3.org/1999/xhtml')
   head
     meta(charset='utf-8')
     title Louis Brion
-    link(rel='icon', href='/favicon.ico')
+    link(rel='icon', href='./favicon.ico')
     link(rel='stylesheet', href='site.css')
   body
+    #header
+      h1 Louis Brion
+      span#navbar
+        a.nav_option.bounce-r(href='./index.html') Home
+        a.nav_option.bounce-r(href='./portfolio.html') Portfolio
+        a.nav_option.bounce-r(href='./blog.html') Blog
+        a.nav_option.bounce-r(href='./contact.html') Contact
     #content
-      #header
-        h1 Louis Brion
-        span#navbar
-          a.nav_option.bounce-r(href='./index.html') Home
-          a.nav_option.bounce-r(href='./portfolio.html') Portfolio
-          a.nav_option.bounce-r(href='./blog.html') Blog
-          a.nav_option.bounce-r(href='./contact.html') Contact
       #slideshow_display
     script(type='text/javascript', src='slideshow.js')
     script.
