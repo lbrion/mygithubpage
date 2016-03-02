@@ -17,8 +17,16 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 700;
+}
+
+a {
+    color: #50e3c2;
+}
+
+.navbar .nav > li > a {
+    color: #50e3c2;
 }
 
 .topnav {
@@ -62,6 +70,11 @@ h6 {
 }
 
 @media(max-width:767px) {
+
+    h1, h2, h3, h4, h5, h6 {
+        text-align: center;
+    }
+
     .intro-message {
         padding-bottom: 15%;
     }
@@ -71,6 +84,7 @@ h6 {
     }
 
     ul.intro-social-buttons > li {
+        text-align: center;
         display: block;
         margin-bottom: 20px;
         padding: 0;
@@ -113,51 +127,43 @@ h6 {
     border-top: 3px solid #e7e7e7;
 }
 
-.banner {
+.contact-section {
     padding: 100px 0;
     color: #f8f8f8;
     background: url(../img/banner-bg.jpg) no-repeat center center;
     background-size: cover;
 }
 
-.banner h2 {
+.contact-section h2 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 3em;
 }
 
-.banner ul {
-    margin-bottom: 0;
+.block-statement {
+    background-color: #F5F5F5;
+    text-align: center;
+    font-weight: 300;
+    padding: 30px 0;
+    font-size: 12px;
 }
 
-.banner-social-buttons {
-    float: right;
-    margin-top: 0;
+.block-statement-title {
+    font-size: 30px;
 }
 
-@media(max-width:1199px) {
-    ul.banner-social-buttons {
-        float: left;
-        margin-top: 15px;
-    }
+.pad-left-right {
+    padding: 0 100px;
 }
 
-@media(max-width:767px) {
-    .banner h2 {
-        margin: 0;
-        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-        font-size: 3em;
-    }
+.product-section {
+    padding: 15px 0;
+}
 
-    ul.banner-social-buttons > li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-
-    ul.banner-social-buttons > li:last-child {
-        margin-bottom: 0;
-    }
+.integration-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
 }
 
 footer {
